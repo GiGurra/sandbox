@@ -1,9 +1,11 @@
 *.class
 *.log
+*.jbin
 
 # sbt specific
 .cache
-.history
+.cache/
+.history/
 .lib/
 dist/*
 target/
@@ -13,5 +15,20 @@ project/boot/
 project/plugins/project/
 
 # Scala-IDE specific
-.scala_dependencies
+.scala_dependenciesas
 .worksheet
+.idea
+
+.project
+.classpath
+
+*.log
+game_results.json
+*~
+
+stored_sources/
+stored_history/
+stored_views/
+
+src_generated/
+
